@@ -1,0 +1,99 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+.main{
+    background-image: url("./needs/colorful-wallpaper-background-multicolored-generative-ai.jpg");
+    width:100%;
+    height: 100vh;
+    background-position: center;
+    justify-content:space-evenly;
+    display:flex;
+    align-items:center;
+    background-size:cover;
+
+}
+.main h1{
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-size: 50px;
+    color:white;
+    margin-bottom: 500px;
+    margin-left: 50px;
+}
+h1:hover{
+    color:rgb(112, 197, 218);
+    transition-duration: 1s;
+}
+
+.image img{
+    width: 500px;
+    height:300px;
+    justify-content:center;
+    align-items: center;
+    margin-left:250px;
+}
+.sec{
+    background: lightblue;
+    width:100% ;
+    height:150px;
+    position: relative;
+    display:flex;
+    margin-bottom:-540px;
+    justify-content: center;
+    margin-left: -1050px;
+    position:relative;
+}
+
+.sec > div{
+    height:152px;
+    width:100px;
+    flex:1;
+}
+.sec1{
+    background: #8a2be2;
+
+}
+.sec2{
+    background: #5f9ea0;
+}
+.sec3{
+    background:#9acd32;
+}
+.sec4{
+    background:#d8bfd8;
+}
+.animate > div{
+    position:absolute;
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    bottom:0%;
+    left:20%;
+}
+@keyframes jump{
+    0%{
+       bottom:0%;
+        left:20%;
+    }
+    50%{
+        bottom:50%;
+        left:50%;
+    }
+    100%{
+        bottom:0%;
+        left:80%;
+    }
+}
+.animate >div{
+    position: absolute;
+    height:50px;
+    width:50px;
+    border-radius: 8px;
+    bottom:0%;
+
+}
